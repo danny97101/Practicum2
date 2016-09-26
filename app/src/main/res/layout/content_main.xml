@@ -21,9 +21,8 @@
         android:id="@+id/textView"
         android:textColor="@color/dusty_rose"
         android:textSize="60sp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="51dp" />
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/button" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -82,4 +81,14 @@
         android:layout_centerHorizontal="true"
         android:textColor="@color/colorPrimary"
         android:id="@+id/joeText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello friends it is I Nicole this app is an eyesore but it&apos;s cool bc we are the beST TEAM"
+        android:id="@+id/textView3"
+        android:textSize="25dp"
+        android:textColor="@color/material_grey_900"
+        android:layout_above="@+id/imageView"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
